@@ -69,14 +69,14 @@ AI-powered debate platform integrating 100+ AI models with real-time prediction 
 **Position**: Laboratory Assistant | Computer Science Department | February 2025 - Present
 
 **Trajectory Tracking & Behavioral Analysis System:**
-![Fly Tracking Demo](assets/fly_tracking_demo.gif)
+![Fly Tracking Demo](assets/fly_tracking_v2.gif)
 - Developed real-time trajectory tracking system for behavioral analysis of biological specimens during movement
 - Implemented computer vision pipeline to classify specimens and visualize movement paths with color-coded trajectories
 - Created automated visualization tool that tracks spatial coordinates and renders continuous movement patterns
 - Enhanced research workflow by enabling simultaneous classification and spatial-temporal behavioral analysis
 
 **ResNet-50 Classification Model:**
-![ResNet-50 Results](assets/image.png)
+![ResNet-50 Results](assets/resnet_results.png)
 - Engineered ResNet-50 deep learning model achieving **98.24% test accuracy** on 3-class biological specimen classification
 - Developed custom training pipeline with data augmentation (rotation, flipping, color jittering, contrast adjustment) on 850+ image dataset
 - Applied advanced tiling techniques for fine-grained feature detection in microscopic image analysis
