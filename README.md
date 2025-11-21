@@ -52,15 +52,36 @@ class KonstantinSavkin:
 ### 🥉 QuackHacks 2025 Hackathon - 3rd Place (out of 112 participants)
 **Team Project**: [PolyDebate](https://github.com/bazarkua/polydebate) | [DevPost](https://devpost.com/software/polydebate)
 
-AI-powered debate platform integrating 100+ AI models with real-time prediction market data and TTS narration
+> **🏆 Awarded 3rd Place Overall** out of 112 participants.
+> **Prize**: Resume circulation to the **Polymarket** engineering team.
+
+AI-powered debate platform integrating 100+ AI models with real-time prediction market data and TTS narration.
+
+#### 🏗️ System Architecture
+
+```ascii
++----------------+       +---------------------------+       +------------------+
+|  User / Client | <---> |      Flask Backend        | <---> |     Database     |
+| (Next.js / UI) |       | (Orchestrator / API)      |       | (PostgreSQL/SQL) |
++----------------+       +---------------------------+       +------------------+
+                                      ^  ^  ^
+                                      |  |  |
+             +------------------------+  |  +-------------------------+
+             |                           |                            |
++-------------------------+   +--------------------------+   +------------------+
+|     Polymarket API      |   |      OpenRouter API      |   |  ElevenLabs API  |
+| (Real-time Market Data) |   | (LLM Debate Generation)  |   | (Text-to-Speech) |
++-------------------------+   +--------------------------+   +------------------+
+```
 
 **My Contributions** (Backend/API Focus):
-- Backend architecture (Flask + SQLAlchemy, 8 tables, 15+ endpoints)
-- RESTful API design and database schema implementation
-- JWT authentication system with bcrypt password hashing
-- External API integration (OpenRouter, ElevenLabs, Polymarket)
-- Real-time SSE streaming for live debate updates
-- **Delivered**: 24-hour development sprint from concept to working product
+- **Polymarket Integration (Critical)**:
+    - Engineered the ingestion pipeline for **Polymarket's CLOB (Central Limit Order Book) API** to fetch real-time event probabilities.
+    - Implemented logic to inject live market sentiment (e.g., "65% Yes") into LLM contexts, forcing AI debaters to ground arguments in current market reality.
+- **Backend Architecture**: Built the core Flask orchestrator managing the flow between 3 external APIs (Polymarket, OpenRouter, ElevenLabs) and the frontend.
+- **Real-time Streaming**: Implemented Server-Sent Events (SSE) to stream debate chunks and audio URLs instantly to the client, reducing perceived latency to near-zero.
+- **Database Design**: Designed the schema to store debate history, user votes, and market snapshots for historical analysis.
+- **Delivered**: 24-hour development sprint from concept to working product.
 
 ## 💻 Tech Stack
 
