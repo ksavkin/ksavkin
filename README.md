@@ -68,14 +68,20 @@ AI-powered debate platform integrating 100+ AI models with real-time prediction 
 ### 🔬 Machine Learning Research - Warren Lab (OSU)
 **Position**: Laboratory Assistant | Computer Science Department | February 2025 - Present
 
+**Trajectory Tracking & Behavioral Analysis System:**
 ![Fly Tracking Demo](assets/fly_tracking_demo.gif)
+- Developed real-time trajectory tracking system for behavioral analysis of biological specimens during movement
+- Implemented computer vision pipeline to classify specimens and visualize movement paths with color-coded trajectories
+- Created automated visualization tool that tracks spatial coordinates and renders continuous movement patterns
+- Enhanced research workflow by enabling simultaneous classification and spatial-temporal behavioral analysis
 
-**Classification Model Project:**
-- Achieved **95%/90%/92% accuracy** on 3-class image classification for biological research
-- Applied advanced tiling techniques for fine-grained feature detection (wing spots)
-- Improved model accuracy from **0 → 93%** through iterative hyperparameter tuning
-- Curated balanced dataset (~450 samples per class) and performed model selection
-- Authored technical report documenting methodology and improvements
+**ResNet-50 Classification Model:**
+- Engineered ResNet-50 deep learning model achieving **98.24% test accuracy** on 3-class biological specimen classification
+- Developed custom training pipeline with data augmentation (rotation, flipping, color jittering, contrast adjustment) on 850+ image dataset
+- Applied advanced tiling techniques for fine-grained feature detection in microscopic image analysis
+- Improved model accuracy from initial baseline to **93%** through systematic hyperparameter tuning and architecture optimization
+- Curated balanced dataset (~450 samples per class) ensuring robust model generalization across morphological variations
+- Authored technical report documenting ResNet architecture, training methodology, and evaluation metrics
 
 **Detection Model Project:**
 - Annotated **1,000+ images** across 3 classes for object detection training
