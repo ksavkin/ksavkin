@@ -68,6 +68,8 @@ AI-powered debate platform integrating 100+ AI models with real-time prediction 
 ### 🔬 Machine Learning Research - Warren Lab (OSU)
 **Position**: Laboratory Assistant | Computer Science Department | February 2025 - Present
 
+![Fly Tracking Demo](assets/fly_tracking_demo.gif)
+
 **Classification Model Project:**
 - Achieved **95%/90%/92% accuracy** on 3-class image classification for biological research
 - Applied advanced tiling techniques for fine-grained feature detection (wing spots)
