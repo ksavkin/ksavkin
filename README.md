@@ -76,6 +76,7 @@ AI-powered debate platform integrating 100+ AI models with real-time prediction 
 - Enhanced research workflow by enabling simultaneous classification and spatial-temporal behavioral analysis
 
 **ResNet-50 Classification Model:**
+![ResNet-50 Results](assets/image.png)
 - Engineered ResNet-50 deep learning model achieving **98.24% test accuracy** on 3-class biological specimen classification
 - Developed custom training pipeline with data augmentation (rotation, flipping, color jittering, contrast adjustment) on 850+ image dataset
 - Applied advanced tiling techniques for fine-grained feature detection in microscopic image analysis
