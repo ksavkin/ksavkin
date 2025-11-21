@@ -29,26 +29,6 @@ class KonstantinSavkin:
 
 ## 🏆 Recent Achievements
 
-### 🔬 Machine Learning Research - Warren Lab (OSU)
-**Position**: Laboratory Assistant | Computer Science Department | February 2025 - Present
-
-**Classification Model Project:**
-- Achieved **95%/90%/92% accuracy** on 3-class image classification for biological research
-- Applied advanced tiling techniques for fine-grained feature detection (wing spots)
-- Improved model accuracy from **0 → 93%** through iterative hyperparameter tuning
-- Curated balanced dataset (~450 samples per class) and performed model selection
-- Authored technical report documenting methodology and improvements
-
-**Detection Model Project:**
-- Annotated **1,000+ images** across 3 classes for object detection training
-- Automated labeling pipeline achieving **99.6% time reduction** (20s → 74ms per image)
-- Implemented YOLO-based detection model for automated biological specimen identification
-
-**BeeMachine Parser:**
-- Designed and implemented parser for large-scale ML dataset processing
-- Automated error analysis and misclassification flagging for model improvement
-- Enhanced research workflow efficiency through data pipeline automation
-
 ### 🥉 QuackHacks 2025 Hackathon - 3rd Place (out of 112 participants)
 **Team Project**: [PolyDebate](https://github.com/bazarkua/polydebate) | [DevPost](https://devpost.com/software/polydebate)
 
@@ -84,6 +64,26 @@ AI-powered debate platform integrating 100+ AI models with real-time prediction 
 - **Real-time Streaming**: Implemented Server-Sent Events (SSE) to stream debate chunks and audio URLs instantly to the client, reducing perceived latency to near-zero.
 - **Database Design**: Designed the schema to store debate history, user votes, and market snapshots for historical analysis.
 - **Delivered**: 24-hour development sprint from concept to working product.
+
+### 🔬 Machine Learning Research - Warren Lab (OSU)
+**Position**: Laboratory Assistant | Computer Science Department | February 2025 - Present
+
+**Classification Model Project:**
+- Achieved **95%/90%/92% accuracy** on 3-class image classification for biological research
+- Applied advanced tiling techniques for fine-grained feature detection (wing spots)
+- Improved model accuracy from **0 → 93%** through iterative hyperparameter tuning
+- Curated balanced dataset (~450 samples per class) and performed model selection
+- Authored technical report documenting methodology and improvements
+
+**Detection Model Project:**
+- Annotated **1,000+ images** across 3 classes for object detection training
+- Automated labeling pipeline achieving **99.6% time reduction** (20s → 74ms per image)
+- Implemented YOLO-based detection model for automated biological specimen identification
+
+**BeeMachine Parser:**
+- Designed and implemented parser for large-scale ML dataset processing
+- Automated error analysis and misclassification flagging for model improvement
+- Enhanced research workflow efficiency through data pipeline automation
 
 ## 💻 Tech Stack
 
