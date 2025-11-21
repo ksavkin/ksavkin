@@ -55,7 +55,7 @@ class KonstantinSavkin:
 > **🏆 Awarded 3rd Place Overall** out of 112 participants.
 > **Prize**: Resume circulation to the **Polymarket** engineering team.
 
-<video src="https://github.com/ksavkin/ksavkin/raw/main/assets/polydebate_demo.mp4" controls="controls" style="max-width: 100%;">
+<video src="assets/polydebate_demo.mp4" controls="controls" style="max-width: 100%;">
 </video>
 
 AI-powered debate platform integrating 100+ AI models with real-time prediction market data and TTS narration.
