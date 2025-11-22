@@ -41,19 +41,14 @@ AI-powered debate platform integrating 100+ AI models with real-time prediction 
 
 #### 🏗️ System Architecture
 
-```ascii
-+----------------+       +---------------------------+       +------------------+
-|  User / Client | <---> |      Flask Backend        | <---> |     Database     |
-| (Next.js / UI) |       | (Orchestrator / API)      |       | (PostgreSQL/SQL) |
-+----------------+       +---------------------------+       +------------------+
-                                      ^  ^  ^
-                                      |  |  |
-             +------------------------+  |  +-------------------------+
-             |                           |                            |
-+-------------------------+   +--------------------------+   +------------------+
-|     Polymarket API      |   |      OpenRouter API      |   |  ElevenLabs API  |
-| (Real-time Market Data) |   | (LLM Debate Generation)  |   | (Text-to-Speech) |
-+-------------------------+   +--------------------------+   +------------------+
+```mermaid
+graph TD
+    User[Website<br/>Next.js / UI] <--> Backend[Flask Backend<br/>Orchestrator / API]
+    Backend <--> DB[Database<br/>PostgreSQL/SQL]
+    
+    Backend --> Poly[Polymarket API<br/>Real-time Market Data]
+    Backend --> OpenRouter[OpenRouter API<br/>LLM Debate Generation]
+    Backend --> Eleven[ElevenLabs API<br/>Text-to-Speech]
 ```
 
 **My Contributions** (Backend/API Focus):
