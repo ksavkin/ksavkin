@@ -41,7 +41,7 @@ AI-powered debate platform integrating 100+ AI models with real-time prediction 
 
 #### 🏗️ System Architecture
 
-![System Architecture](assets/architecture_diagram.png)
+![System Architecture](assets/architecture_diagram.svg)
 
 **My Contributions** (Backend/API Focus):
 - **Polymarket Integration (Critical)**:
