@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konstantin Savkin | CS Student & ML Researcher</title>
+    <meta name="description"
+        content="Portfolio of Konstantin Savkin, a Computer Science student at Oregon State University specializing in Machine Learning, Computer Vision, and Backend Engineering.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-gradient"></div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">KS.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact" class="btn-primary">Contact Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="name">Konstantin Savkin</h1>
+                <h2 class="title">CS Student & <span class="highlight">ML Researcher</span></h2>
+                <p class="bio">
+                    Passionate about <strong>Machine Learning</strong>, <strong>Computer Vision</strong>, and
+                    <strong>Backend Engineering</strong>.
+                    Currently optimizing ML models at Warren Lab and building scalable backend systems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/ksavkin" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/ksavkin" target="_blank" aria-label="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="mailto:k.e.savkin@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-card">
+                    <div class="card-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="card-body">
+                        <pre><code class="language-python">class KonstantinSavkin:
+    def __init__(self):
+        self.location = "Corvallis, OR"
+        self.education = "Oregon State University"
+        self.gpa = 3.97
+        self.focus = [
+            "Machine Learning", 
+            "Computer Vision", 
+            "Backend Engineering"
+        ]
+        
+    def get_status(self):
+        return "Open to Summer 2026 Internships"</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a Sophomore Computer Science student at <strong>Oregon State University</strong> with a
+                        <strong>3.97 GPA</strong>.
+                        My journey in tech is driven by a curiosity to understand how machines learn and how to build
+                        robust systems that scale.
+                    </p>
+                    <p>
+                        Currently, I am a <strong>Laboratory Assistant at Warren Lab</strong>, where I apply Computer
+                        Vision techniques to biological research.
+                        I engineer pipelines for image classification and object detection, directly impacting research
+                        efficiency.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">3.97</span>
+                            <span class="stat-label">GPA</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Coding</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Major Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Machine Learning Research</h3>
+                            <span class="company">Warren Lab (OSU)</span>
+                            <span class="date">Feb 2025 - Present</span>
+                        </div>
+                        <p class="role">Laboratory Assistant</p>
+                        <ul class="timeline-list">
+                            <li><strong>Trajectory Tracking:</strong> Developed real-time system for behavioral analysis
+                                of biological specimens.</li>
+                            <li><strong>ResNet-50 Model:</strong> Engineered model achieving <strong>98.24% test
+                                    accuracy</strong> on specimen classification.</li>
+                            <li><strong>Detection Model:</strong> Annotated 1,000+ images and implemented YOLO-based
+                                detection.</li>
+                            <li><strong>Automation:</strong> Reduced labeling time by 99.6% (20s → 74ms per image).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Work</h2>
+            <div class="projects-grid">
+                <!-- Trajectory Tracking (Research) -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="badge-award">Warren Lab Research</span>
+                        </div>
+                        <img src="assets/fly_tracking_v2.gif" alt="Fly Tracking Demo" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Trajectory Tracking</h3>
+                        </div>
+                        <p class="project-desc">
+                            Real-time computer vision system for behavioral analysis of biological specimens.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ResNet-50 (Research) -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="badge-award">98.24% Accuracy</span>
+                        </div>
+                        <img src="assets/resnet_results.png" alt="ResNet Results" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>ResNet-50 Classifier</h3>
+                        </div>
+                        <p class="project-desc">
+                            Deep learning model for specimen classification achieving 98.24% test accuracy.
+                        </p>
+                        <div class="tech-stack">
+                            <span>PyTorch</span>
+                            <span>Deep Learning</span>
+                            <span>ResNet</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- PolyDebate -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/bazarkua/polydebate" target="_blank" class="btn-icon"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="https://devpost.com/software/polydebate" target="_blank" class="btn-icon"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <img src="assets/polydebate_demo_v2.gif" alt="PolyDebate Demo" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>PolyDebate</h3>
+                            <span class="badge-award"><i class="fas fa-trophy"></i> 3rd Place @ QuackHacks</span>
+                        </div>
+                        <p class="project-desc">
+                            AI-powered debate platform integrating 100+ AI models with real-time prediction market data.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Next.js</span>
+                            <span>OpenRouter</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="high-school-projects" class="section">
+        <div class="container">
+            <h2 class="section-title">High School Projects</h2>
+            <div class="compact-grid">
+                <!-- Universities Database -->
+                <article class="compact-card">
+                    <div class="card-badge">High School</div>
+                    <div class="compact-icon icon-db">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="compact-content">
+                        <div class="compact-header">
+                            <h3>Universities Database</h3>
+                            <a href="https://github.com/ksavkin/universities_db_project" target="_blank"
+                                class="link-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                        <p class="compact-desc">
+                            Comprehensive 8-table relational database for university information with advanced SQL
+                            queries.
+                        </p>
+                        <div class="tech-stack">
+                            <span>SQL</span>
+                            <span>SQLite</span>
+                            <span>DBeaver</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blind Chess Player -->
+                <article class="compact-card">
+                    <div class="card-badge">High School</div>
+                    <div class="compact-icon icon-chess">
+                        <i class="fas fa-chess-knight"></i>
+                    </div>
+                    <div class="compact-content">
+                        <div class="compact-header">
+                            <h3>Blind Chess Player</h3>
+                            <a href="https://github.com/ksavkin/blind_chess_player" target="_blank" class="link-icon"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                        <p class="compact-desc">
+                            Blindfold chess training app with Telegram bot and Yandex Station voice interface.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Telegram API</span>
+                            <span>Voice API</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">TypeScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Computer Vision</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">SQLAlchemy</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+                <p>I'm actively seeking <strong>Summer 2026 internships</strong> in ML/AI, Computer Vision, and Backend
+                    Engineering.</p>
+                <a href="mailto:k.e.savkin@gmail.com" class="btn btn-primary btn-large">Get In Touch</a>
+                <div class="contact-socials">
+                    <a href="https://linkedin.com/in/ksavkin" target="_blank">LinkedIn</a>
+                    <span class="separator">•</span>
+                    <a href="https://github.com/ksavkin" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 Konstantin Savkin. All rights reserved.</p>
+            <p class="location">Corvallis, OR</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple script for mobile menu toggle
+        document.querySelector('.hamburger').addEventListener('click', function () {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
