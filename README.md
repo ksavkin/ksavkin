@@ -13,7 +13,13 @@ Software Engineer and AI Engineer, backend-first. I build data-heavy backends an
 
 - **SwiftLabel** - a keyboard-first image labeling tool for ML engineers, published on [PyPI](https://pypi.org/project/swiftlabel/) ([source](https://github.com/ksavkin/SwiftLabel)).
 - **1st place, BeaverHacks 2026** and **3rd place, QuackHacks 2025** (out of 112 teams) for [PolyDebate](https://github.com/bazarkua/polydebate), an AI debate platform wired to live prediction-market data.
+
+  <img src="assets/polydebate_demo_v2.gif" width="600" alt="PolyDebate demo">
+
 - **ML research at Warren Lab (Oregon State)** - production ML running on edge devices, trained and evaluated over 1.5M+ frames.
+
+  <img src="assets/fly_tracking_v2.gif" width="600" alt="Real-time trajectory tracking">
+
 
 ## Stack
 
