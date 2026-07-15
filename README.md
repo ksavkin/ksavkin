@@ -1,7 +1,7 @@
 <!-- ====================== HEADER ====================== -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1e293b&height=120&section=header&text=Konstantin%20Savkin&fontColor=FFFFFF&fontSize=42&fontAlignY=52" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=120&section=header&text=Konstantin%20Savkin&fontColor=FFFFFF&fontSize=42&fontAlignY=52" alt="header" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=3B82F6&center=true&vCenter=true&width=600&lines=Software+Engineer+%40+Zyp+%26+Next+League;ML+%2F+CV+Researcher+%40+Warren+Lab%2C+OSU;PostgreSQL+%7C+TypeScript+%7C+PyTorch+%7C+Next.js" alt="Typing SVG" />
@@ -215,7 +215,7 @@ A fast local CLI with a WebSocket-backed UI, staged and reversible edits, and fi
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ksavkin&bg_color=0d1117&color=8b949e&line=3B82F6&point=c9d1d9&area=true&area_color=1e293b&hide_border=true" alt="Activity Graph" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ksavkin&bg_color=0d1117&color=8b949e&line=3B82F6&point=c9d1d9&area=false&hide_border=true" alt="Activity Graph" width="100%" />
 
 </div>
 
