@@ -16,8 +16,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| **Training Rails** | Railroad defect detection on Jetson — segmentation model on a self-collected dataset, GPS-tagged detections streamed to a live map. **1st place, BeaverHacks 2026.** | PyTorch · Jetson · Supabase |
-| **PolyDebate** | LLM debate arena — 100+ models via OpenRouter, SSE streaming, ElevenLabs TTS, built in 24 h. **3rd place, QuackHacks 2025** (112 teams). [Source](https://github.com/bazarkua/polydebate) | Flask · OpenRouter · SSE |
+| **Training Rails** | Railroad defect detection on Jetson — segmentation model on a self-collected dataset, GPS-tagged detections streamed to a live map. **1st place, BeaverHacks 2026.** [Source](https://github.com/ksavkin/training-rails-hack) | PyTorch · Jetson · Supabase |
+| **PolyDebate** | LLM debate arena — 100+ models via OpenRouter, SSE streaming, ElevenLabs TTS, built in 24 h. **3rd place, QuackHacks 2025** (112 teams). [Source](https://github.com/ksavkin/polydebate) | Flask · OpenRouter · SSE |
 | **SwiftLabel** | Keyboard-first image-labeling CLI with persistent sessions, undoable changes, remote SSH. Published on [PyPI](https://pypi.org/project/swiftlabel/). [Source](https://github.com/ksavkin/SwiftLabel) | Python · FastAPI · WebSocket |
 
 ## Stack
@@ -27,13 +27,6 @@
 **Data** — PostgreSQL (RLS, migrations), TimescaleDB, Supabase, SQLite
 **AI/ML** — PyTorch, YOLO, ResNet, OpenCV, scikit-learn, OpenRouter, MCP
 **Infra** — Git, Docker, Vercel, CI/CD, Linux, CUDA, Raspberry Pi, Jetson
-
-## GitHub
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ksavkin&show_icons=true&count_private=true&hide_border=true&bg_color=00000000&title_color=3B82F6&icon_color=3B82F6&text_color=8b949e&hide_title=true&hide_rank=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ksavkin&layout=compact&hide_border=true&bg_color=00000000&title_color=3B82F6&text_color=8b949e&langs_count=8" alt="Top languages" />
-</p>
 
 ---
 
